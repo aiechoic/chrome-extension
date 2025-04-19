@@ -1,5 +1,10 @@
 {
   "files": [],
+  "compilerOptions": {
+    "types": ["chrome"], // 显式包含 Chrome 类型
+    "lib": ["DOM", "ES6"]
+  },
+  "include": ["src/**/*"],
   "references": [
     {
       "path": "./tsconfig.node.json"
